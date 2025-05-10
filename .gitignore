@@ -1,6 +1,15 @@
-.vs/
-*.vsix
+# Ignore build output directories
+/bin/
+/obj/
+/x64/
+
+# Ignore user-specific files
 *.user
-*.userosscache
 *.suo
-*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Ignore temporary files
+*.log
+*.vs
+*.vscode
